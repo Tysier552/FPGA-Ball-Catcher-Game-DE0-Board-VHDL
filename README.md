@@ -52,14 +52,27 @@ Game flow:
 
 ---
 
+
 ## 🧪 How to Run
 
-1. **Download** the project ZIP file from this repository.  
-2. **Extract** it to a local folder on your computer.  
-3. **Open the project** in **Quartus II 9.2**.  
-4. **Set `ball_display2_1`** as the **top-level entity**.  
-5. **Compile** the design and program the DE0 FPGA board.  
-6. **Connect** a VGA monitor and PS/2 keyboard to play the game.  
-7. Optional: **Run simulations** in **ModelSim** for testing specific modules.
+1. **Download** the `.qar` project archive from this repository.  
+2. **Open Quartus II 9.2** on your computer.  
+3. Go to **File → Open Project Archive**, then select the `.qar` file.  
+4. Quartus will automatically extract the complete project.  
+5. Set **`ball_display2_1`** as the **top-level entity** (if not already).  
+6. **Compile** the design and program the **DE0 FPGA board**.  
+7. Connect a **VGA monitor** and **PS/2 keyboard** to play the game.  
+8. Optional: **Simulate modules** like `control_unit.vhd` or `ball.vhd` in **ModelSim**.
 
 ---
+
+
+👨‍💻 Authors
+
+Tysier Zidan
+B.Sc. Computer Engineering – Ruppin Academic Center
+📍 Akko, Israel
+📧 zidantysier87@gmail.com
+
+🔗 LinkedIn
+
